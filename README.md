@@ -1,7 +1,5 @@
-DJ FUEL WEBDECK v0.4 - Deck A Auto Play
+DJ FUEL WEBDECK v0.5 Quick Folder Tabs
 
-Upload index.html, sw.js, manifest.webmanifest to the root of your GitHub Pages repository and commit. Refresh Safari while online to receive the update.
+New: horizontal folder tabs directly below the library search row. Tap All Music, Unfiled, Ceremony, or any custom folder for instant switching. Selected tab is highlighted; original folder management remains. No audio or IndexedDB schema changes.
 
-Deck A: Auto Play Next (OFF by default) and Repeat Folder. When a track finishes naturally, the next track in its assigned folder starts automatically, following library order. Deck B stays manual. Four-second Auto Fade still pauses and never advances.
-
-IMPORTANT: Test on iPad at low volume. iPadOS may restrict automatic playback, and storage can be evicted. Do not depend on this unverified version as the sole ceremony playback device.
+To update GitHub Pages, replace index.html and sw.js in repository root. Also upload manifest.webmanifest if missing. Wait for deployment, refresh Safari, and reopen the Home Screen app. Test with a backup audio setup before any ceremony.
