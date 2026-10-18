@@ -1,1 +1,1 @@
-WEBDECK v10.c: Corrects library column alignment. No playback or library data changes.
+WEBDECK v10.d: Remove duplicate track-number injection and align library rows. Playback code unchanged.
