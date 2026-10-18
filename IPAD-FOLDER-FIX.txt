@@ -1,0 +1,1 @@
+iPad Air 2 standalone keyboard fix: New Folder and Rename Folder now use an in-app native HTML input instead of JavaScript prompt(). Tap inside the field to show keyboard. No audio/deck logic changed. Upload files at ZIP root to GitHub repository root. Test before use at an event.
