@@ -1,0 +1,1 @@
+v0.8.0a: Fixes crash when pressing controls while Smart Mix has prepared a next-track plan (not yet an Audio element). Also routes deck controls to active media element after transition. Experimental: test off-air.

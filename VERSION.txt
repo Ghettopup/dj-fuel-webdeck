@@ -1,2 +1,2 @@
-DJ FUEL WEBDECK v0.7.0
-Visible version next to WEBDECK name. Includes iPad standalone touch keyboard.
+DJ FUEL WEBDECK v0.8.0a
+Smart Mix controls hotfix; v0.7.0 remains protected.
