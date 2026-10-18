@@ -1,0 +1,9 @@
+DJ FUEL WEBDECK v0.6 - NEON ICON + 2.5 SECOND AUTO FADE
+
+Upload the contents of this ZIP to the root of your GitHub repository (not the enclosing folder). Replace matching files.
+
+Changes: Apple standalone Home Screen support; official neon DJ FUEL WEBDECK icon at 180, 192, 512 pixels; Auto Fade labels and fade durations updated from 4.0 seconds to 2.5 seconds on both decks; service worker cache version bumped.
+
+No intentional changes to library, cues, crossfader, playback or autoplay logic. Original files are preserved in your original GitHub ZIP.
+
+IMPORTANT: Back up imported MP3s and test the new standalone installation before any gig. iOS may isolate standalone app storage from Safari storage. Remove the old Home Screen shortcut and add the site again in Safari after publishing.

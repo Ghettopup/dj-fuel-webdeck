@@ -1,0 +1,4 @@
+DJ FUEL WEBDECK standalone update for iPadOS 15 and newer.
+Original index playback logic and UI unchanged. Added Apple web app meta tags, icons, manifest icons, and bumped service worker cache version.
+Upload these files to the repository root, retaining existing files. Wait for GitHub Pages deployment. In Safari remove the OLD Home Screen shortcut, load the site fresh, Share > Add to Home Screen. Launch from the new icon. Keep the original ZIP as rollback backup.
+NOTE: Audio files stored in IndexedDB may be associated with the existing Safari storage context and may not automatically transfer to the standalone Home Screen app. Reimport and verify audio before relying on the new icon at a gig. Do not delete old Safari data.

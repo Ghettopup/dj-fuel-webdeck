@@ -1,0 +1,3 @@
+DJ FUEL WEBDECK: approved icon + 2.5-second fades + iPad standalone mode.
+
+Upload the CONTENTS of this folder (not the folder itself) to the root of GitHub repository Ghettopup/dj-fuel-webdeck on main. Replace matching files. Keep a backup of the working wedding version. Wait for GitHub Pages deployment. Remove and re-add the Safari Home Screen shortcut to refresh standalone settings and icon. Test offline launch, imported tracks, cues and both fades before any gig. Note standalone storage may be separate from Safari and MP3 files may require reimport.
