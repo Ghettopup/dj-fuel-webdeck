@@ -1,1 +1,7 @@
-DJ FUEL WEBDECK v0.6: version badge beside title and real quick folder tabs below the search row. Retains existing IndexedDB music data and folder assignments. Upload index.html, sw.js and manifest.webmanifest to GitHub repository root. Test before use at a gig.
+WEBDECK v10.a
+
+Changes: Plain flat PLAY/PAUSE text buttons, FADE OUT label for the original 2.5-second fade, removal of both FADE TO A/B controls and handlers.
+
+No changes to audio playback engine, storage, folder import or cue operations.
+
+Install via GitHub upload without clearing iPad website data. Keep the field-tested backup.
