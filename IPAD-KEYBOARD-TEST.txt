@@ -1,0 +1,4 @@
+DJ FUEL WEBDECK - native keyboard compatibility attempt 2
+Folder entry moved to an inline form directly under folder controls; synchronous input focus from button tap. No audio playback changes.
+Test on installed iPad Air 2 Home Screen app. If keyboard still does not open, next step is a custom touchscreen keyboard only for iPad standalone mode.
+Do not delete existing Home Screen app or clear website data.
