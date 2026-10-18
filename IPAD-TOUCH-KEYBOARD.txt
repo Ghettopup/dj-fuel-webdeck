@@ -1,0 +1,1 @@
+v3: Built-in folder naming keyboard shown only on standalone iPad. Safari and iPhone keep native keyboard. No audio playback code changed. Test folder creation and rename before a live event.
