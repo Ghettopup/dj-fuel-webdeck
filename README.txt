@@ -1,8 +1,9 @@
-DJ FUEL WEBDECK v11b Wedding Edition
-Deploy ALL files to the GitHub Pages repository root.
-Changes: distinct collapsible gig controls, teal library, collapsible bronze wedding save/recall, safer restore, persistent folder durations, deck B dark, cue group, folder management cleanup.
-IMPORTANT: Save Deck exports settings only, not MP3 audio. Test on your devices before live use. iOS volume fade may be restricted by Safari; verify audibly.
+DJ FUEL WEBDECK V12 - DUAL AUDIO + TOUCH SORT
 
-V11c: fixed SET/CUE responsive grouping and library up/down arrow sizing. Playback code unchanged.
+LIVE PRODUCTION: Web Audio gain fade 2.5s. Keep app foreground.
+BG PLAYER: native HTML audio for iPhone locked-screen playback. Fade disabled.
+Switch modes only while both decks stopped.
+Touch and hold the grip handle to rearrange songs; Gig Safety Lock blocks sorting.
 
-V11d: Experimental iOS foreground fade uses a temporary Web Audio media element. Original background playback element remains untouched. Test on iPhone before gig use.
+TEST on iPhone Home Screen, iPad, and Windows before live ceremony use.
+Upload all files to GitHub Pages; service worker cache version is updated.
