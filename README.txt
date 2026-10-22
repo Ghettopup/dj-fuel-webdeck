@@ -1,9 +1,7 @@
-DJ FUEL WEBDECK V12a - Fade + Library Fix
+DJ FUEL WEBDECK V12c — Visual Polish
 
-Upload ALL files to the root of your GitHub Pages repository.
+Based on V12b confirmed-working fade engine. No audio/fade JavaScript changes.
 
-Fixes: Web Audio scheduled gain fade to zero before pausing; avoids gain reset during fade; fixes library alignment and restores visible LOAD A and LOAD B buttons.
+Changes: Deck A and B heading text both mint green; library LOAD B button mint green; compact LOAD column with more room for song titles; separate LOAD A and B preserved.
 
-Keep a backup of your current deployment. Test on iPhone/iPad before ceremony use.
-
-V12b: Safety patch: hold Web Audio gain at zero after fade completes; do not reset volume until explicit next Play. Device testing required.
+Deploy all files to GitHub Pages. Keep V12b ZIP as backup. Test on actual iPhone/iPad before gig use.
