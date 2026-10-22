@@ -1,9 +1,7 @@
-DJ FUEL WEBDECK V12 - DUAL AUDIO + TOUCH SORT
+DJ FUEL WEBDECK V12a - Fade + Library Fix
 
-LIVE PRODUCTION: Web Audio gain fade 2.5s. Keep app foreground.
-BG PLAYER: native HTML audio for iPhone locked-screen playback. Fade disabled.
-Switch modes only while both decks stopped.
-Touch and hold the grip handle to rearrange songs; Gig Safety Lock blocks sorting.
+Upload ALL files to the root of your GitHub Pages repository.
 
-TEST on iPhone Home Screen, iPad, and Windows before live ceremony use.
-Upload all files to GitHub Pages; service worker cache version is updated.
+Fixes: Web Audio scheduled gain fade to zero before pausing; avoids gain reset during fade; fixes library alignment and restores visible LOAD A and LOAD B buttons.
+
+Keep a backup of your current deployment. Test on iPhone/iPad before ceremony use.
