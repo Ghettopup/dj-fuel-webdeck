@@ -1,7 +1,5 @@
-DJ FUEL WEBDECK V12c — Visual Polish
+DJ FUEL WEBDECK V12d — Clean Library Rebuild
 
-Based on V12b confirmed-working fade engine. No audio/fade JavaScript changes.
+Rebuilt song rows and headers with one consistent four-column grid; fixed-size A/B controls, touch drag handles, comments, selection, folder integration. All audio/fade functions preserved from V12c (which contains verified V12b fade fix).
 
-Changes: Deck A and B heading text both mint green; library LOAD B button mint green; compact LOAD column with more room for song titles; separate LOAD A and B preserved.
-
-Deploy all files to GitHub Pages. Keep V12b ZIP as backup. Test on actual iPhone/iPad before gig use.
+Deploy all files to GitHub Pages. Back up your previous release and your music/wedding setup. Verify on iPhone/iPad before ceremony use.
