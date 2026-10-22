@@ -1,6 +1,4 @@
-DJ FUEL WEBDECK v10 - approved blue/green flat layout
-Built from v0.7.0 player.
-Deck A Auto Play repeats folder; Deck B Auto Play added as experimental and requires iPad testing.
-All original player IDs, audio, cues, MP3 import, folder management, local storage, and touch keyboard preserved.
-Crossfader, import, storage, folder tools live under the Library Tools panel via the gear.
-TEST before use at a live wedding. Do not clear website storage or delete installed app.
+DJ FUEL WEBDECK V11.0 preview. V10.h remains unchanged.
+Implemented: Shuffle A, next track, 3-button cues, row delete cleanup, safe area, iOS direct media audio path, gig lock, up next, settings backup/restore, gig check, audio test, resume decks.
+LIMITATIONS: Wi-Fi transfer not implemented. iOS background audio not verified; iOS restrictions may apply. Volume matching not implemented. Full MP3 backup not implemented.
+Deploy all files together to an HTTPS site. Test with spare tracks before use at a gig.
