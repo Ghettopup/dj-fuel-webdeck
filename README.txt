@@ -1,15 +1,4 @@
-DJ FUEL WEBDECK V11a — MODERN DARK PRO PREVIEW
-
-Built from V11 preview with Design 1 (Modern Dark Pro), without album artwork.
-Includes:
-- Dark navy interface with electric-blue and orange highlights
-- Matching responsive deck controls and improved landscape button alignment
-- Library ORDER arrow visibility fix
-- Track count and combined duration beside Song Name (metadata measured locally)
-- Preserves V11 audio playback implementation, including iOS background-audio approach
-- Existing library, folders, cue points and storage keys retained
-
-IMPORTANT: Preview only. Test on iPhone/iPad/Windows before using at a live event.
-Keep your existing V11 installation available as a fallback.
-Local audio duration totals may take time to calculate after library import or restart.
-Wi-Fi transfer and automatic volume matching remain unavailable.
+DJ FUEL WEBDECK v11b Wedding Edition
+Deploy ALL files to the GitHub Pages repository root.
+Changes: distinct collapsible gig controls, teal library, collapsible bronze wedding save/recall, safer restore, persistent folder durations, deck B dark, cue group, folder management cleanup.
+IMPORTANT: Save Deck exports settings only, not MP3 audio. Test on your devices before live use. iOS volume fade may be restricted by Safari; verify audibly.
