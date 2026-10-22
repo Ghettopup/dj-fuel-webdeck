@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/><meta content="#14171d" name="theme-color"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/><meta content="DJ FUEL" name="apple-mobile-web-app-title"/><link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/><title>DJ FUEL WEBDECK v10</title><link href="manifest.webmanifest" rel="manifest"/><style>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/><meta content="#07121f" name="theme-color"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/><meta content="DJ FUEL" name="apple-mobile-web-app-title"/><link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/><title>DJ FUEL WEBDECK v11a</title><link href="manifest.webmanifest" rel="manifest"/><style>
 :root{font-family:system-ui,-apple-system,sans-serif;color:#eee;background:#101319}*{box-sizing:border-box}body{margin:0;padding:18px;max-width:1500px;margin:auto}button,input,textarea{font:inherit}button{cursor:pointer;border:1px solid #49505a;border-radius:9px;padding:10px 13px;color:#f5f5f5;background:#2a3039}button:disabled{opacity:.4}button:hover{filter:brightness(1.15)}header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}h1{font-size:1.45rem;letter-spacing:.13em;margin:0;color:#efbb73}h2{font-size:1.1rem;margin:0 0 12px}.sub{color:#9da5b1;font-size:.82rem}.decks{display:grid;grid-template-columns:minmax(0,1fr) 160px minmax(0,1fr);gap:13px}.deck,.cross,.library{border:1px solid #3b424d;background:linear-gradient(145deg,#222831,#15191f);border-radius:17px;padding:16px;min-width:0;box-shadow:0 10px 30px #0004}.deck.a{--accent:#ffac47}.deck.b{--accent:#48bfff}.deck h2{color:var(--accent)}.track{min-height:50px}.track strong{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.wave{width:100%;height:108px;display:block;background:#0d1015;border-radius:10px;touch-action:none;cursor:crosshair}.time{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums;color:#c8cbd0;font-size:.82rem;margin-top:7px}.seek{width:100%;accent-color:var(--accent);margin:12px 0}.controls{display:flex;gap:8px;flex-wrap:wrap}.controls button{flex:1;min-width:90px}.play{background:var(--accent);color:#12161c;border:0;font-weight:800}.fade{border-color:var(--accent)}.cue{display:flex;gap:7px;margin-top:11px}.cue button{flex:1;font-size:.83rem}.cross{text-align:center;display:flex;flex-direction:column;justify-content:center;gap:18px}.cross label{color:#e5b978;font-weight:700}.cross input{width:100%;accent-color:#e5b978}.cross .ends{display:flex;justify-content:space-between}.tube{height:64px;width:33px;border:2px solid #746953;border-radius:16px;margin:0 auto;box-shadow:inset 0 0 15px #e1a04e55,0 0 16px #e1a04e33;background:radial-gradient(ellipse at center,#e9a34955,#1a1713 75%);transition:.15s}.tube.on{background:radial-gradient(ellipse at center,#ffcf79,#e48724 48%,#22140c 80%);box-shadow:0 0 24px #ff9c3d88,inset 0 0 18px #ffd37c}.library{margin-top:14px}.libhead{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.libtools{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.autoplay-settings{margin-top:12px;padding:11px;border:1px solid #554b3d;border-radius:10px;background:#191c20;display:grid;gap:9px}.auto-toggle{display:flex;gap:9px;align-items:center;font-size:.85rem;font-weight:700;color:#f6bd71}.auto-toggle input{width:20px;height:20px;accent-color:#ffac47}.folderbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0 8px}.folderbar select{max-width:230px}.folderbar select,.folderbar input{background:#10141b;color:#fff;border:1px solid #4c5663;padding:10px;border-radius:8px}.folderbar button{padding:9px}.song .pick{display:flex;align-items:center;gap:7px}.song .pick input{width:19px;height:19px;accent-color:#efbb73}.folderbar .spacer{flex:1}.folderbar .count{font-size:.8rem;color:#aab2bd}input[type=search]{background:#10141b;color:#fff;border:1px solid #4c5663;padding:10px;border-radius:8px;max-width:230px}.list{margin-top:10px;display:grid;gap:7px}.song{border:1px solid #333c46;border-radius:10px;padding:10px;display:grid;grid-template-columns:minmax(0,1fr) minmax(160px,1fr) auto;gap:10px;align-items:center;background:#1b2129}.song .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.song textarea{width:100%;min-height:45px;resize:vertical;background:#10141b;color:#eee;border:1px solid #49515d;border-radius:6px;padding:7px}.song .actions{display:flex;gap:5px;flex-wrap:wrap}.song .actions button{padding:8px;font-size:.78rem}.empty{color:#9da5b1;padding:20px;text-align:center}.hint{font-size:.8rem;color:#aab2bd;margin:12px 0}#files{display:none}.status{color:#d9b77f;font-size:.85rem;min-height:1.3em} @media(max-width:880px){.decks{grid-template-columns:1fr 1fr}.cross{grid-column:1/-1;grid-row:2;padding:12px}.cross .tube{display:none}.cross input{max-width:450px;margin:auto}.song{grid-template-columns:1fr}.song .actions{justify-content:flex-start}}@media(max-width:600px){body{padding:10px}.decks{grid-template-columns:1fr}.cross{grid-row:auto}.deck{padding:12px}.wave{height:94px}}
  .quick-tabs{display:flex;gap:8px;overflow-x:auto;white-space:nowrap;padding:11px 0 5px;scrollbar-width:thin}.quick-tabs button{flex:0 0 auto;border-radius:999px;padding:9px 14px;font-size:.82rem;font-weight:700}.quick-tabs button.active{background:#efbb73;color:#14171d;border-color:#efbb73} 
 /* Standalone iPadOS-compatible folder entry */
@@ -117,7 +117,7 @@
 .sidebar-manage button{display:block;width:100%;min-width:0;min-height:43px;text-align:left;padding:10px 18px;font-size:11px;font-weight:700;white-space:nowrap;color:#263647;background:#f7fbff;border:1px solid #c0d4e3;border-radius:0!important;box-shadow:none!important}
 .sidebar-manage button:disabled{opacity:.45}
 @media(max-width:550px){.sidebar-manage{gap:3px;padding:5px}.sidebar-manage button{font-size:11px}}
-</style></head><body><header><div class="brand"><span class="logo"><b>DJ</b> <em>FUEL</em></span><span class="brand-divider"></span><span class="appname">WEBDECK</span><span class="version">v11.0</span></div><div class="tagline">CEREMONY PLAYER &amp; COCKTAIL TWO DECK PLAYER</div><button class="settings-launch" title="Show library tools" type="button">⚙</button><div aria-live="polite" class="status" id="status">Ready.</div></header><section class="decks"><article class="deck a" id="deckA"><div class="deck-top"><h2>Deck <span class="deck-letter">A</span></h2><div class="autoplay-settings"><label class="auto-toggle">AUTO PLAY <input id="autoA" type="checkbox"/></label><label class="auto-toggle">SHUFFLE <input id="shuffleA" type="checkbox"/></label><label class="auto-toggle"><input id="repeatA" type="checkbox"/> REPEAT FOLDER</label><div class="sub" id="autoScope">Auto Play is OFF. Deck B stays manual.</div></div><div class="track"><strong id="nameA">No track loaded</strong><span class="sub" id="artistA">Choose LOAD A in the library</span></div></div><canvas aria-label="Deck A waveform, tap to seek" class="wave" id="waveA"></canvas><div class="time"><span id="timeA">0:00</span><span id="durA">0:00</span></div><input aria-label="Deck A seek" class="seek" id="seekA" max="1000" min="0" type="range" value="0"/><div class="upnext" id="upnextA">UP NEXT: —</div><div class="hint">Orange glow means audio is playing.</div><div class="controls"><button class="play" id="playA">PLAY</button><button class="fade" id="fadeA">FADE OUT</button><div class="cue"><button id="nextA">NEXT TRACK</button><button id="setA">SET</button><button id="goA1">CUE 1</button><button id="goA2">CUE 2</button></div></div></article><article class="deck b" id="deckB"><div class="deck-top"><h2>Deck <span class="deck-letter">B</span></h2><div class="autoplay-settings"><label class="auto-toggle">AUTO PLAY <input id="autoB" type="checkbox"/></label></div><div class="track"><strong id="nameB">No track loaded</strong><span class="sub" id="artistB">Choose LOAD B in the library</span></div></div><canvas aria-label="Deck B waveform, tap to seek" class="wave" id="waveB"></canvas><div class="time"><span id="timeB">0:00</span><span id="durB">0:00</span></div><input aria-label="Deck B seek" class="seek" id="seekB" max="1000" min="0" type="range" value="0"/><div class="upnext" id="upnextB">UP NEXT: —</div><div class="hint">Blue glow means audio is playing.</div><div class="controls"><button class="play" id="playB">PLAY</button><button class="fade" id="fadeB">FADE OUT</button><div class="cue"><button id="nextB">NEXT TRACK</button><button id="setB">SET</button><button id="goB1">CUE 1</button><button id="goB2">CUE 2</button></div></div></article></section><section class="library"><nav aria-label="Quick folder switching" class="quick-tabs" id="quickTabs"></nav><div class="libhead"><div class="libtools"><input id="search" placeholder="Search your music..." type="search"/><input accept="audio/*,.mp3" id="files" multiple="" type="file"/></div></div><div class="sub original-note">Import MP3s from Files. Select tracks and move them into custom folders. Comments and cues stay with each track.</div><div class="folder-dialog" hidden="" id="folderDialog"><div aria-labelledby="folderDialogLabel" class="folder-dialog-panel" role="group"><label for="folderDialogInput" id="folderDialogLabel">Folder name</label><input autocapitalize="sentences" autocomplete="off" enterkeyhint="done" id="folderDialogInput" spellcheck="false" type="text"/><div aria-live="polite" class="folder-dialog-error" id="folderDialogError"></div><div aria-label="DJ FUEL touch keyboard" hidden="" id="folderTouchKeyboard"><div class="touch-keyboard-note">iPad touch keyboard · Tap keys to enter folder name</div><div id="folderTouchKeyboardKeys"></div></div><div class="folder-dialog-actions"><button id="folderDialogCancel" type="button">CANCEL</button><button id="folderDialogSave" type="button">SAVE</button></div></div></div><div class="hint">Music is saved locally in this browser after import. Do not clear website data. Keep original MP3s as backups. On iPad, use the installed HTTPS app, not Files preview. Wi-Fi transfer requires a separately paired Windows helper; standard file import works offline.</div><div class="v11-tools"><label><input type="checkbox" id="gigLock"> GIG SAFETY LOCK</label><button id="backupMeta">BACKUP SETTINGS</button><button id="restoreMeta">RESTORE SETTINGS</button><input id="restoreMetaFile" type="file" accept="application/json,.json" hidden><button id="readiness">GIG READINESS CHECK</button><button id="audioTest">AUDIO TEST</button><button id="wifiHelp">WI-FI TRANSFER INFO</button><span id="v11Info"></span></div><div class="library-content"><aside class="folder-sidebar"><div class="sidebar-manage" id="sidebarManage"><button id="renameFolder" type="button">RENAME FOLDER</button><button id="deleteFolder" type="button">DELETE FOLDER</button></div><div class="side-title">♫  All Music</div><div class="sidebar-folders" id="folderSidebar"></div><div class="sidebar-actions"><button id="import" type="button">IMPORT MUSIC</button><button id="newFolder" type="button">＋ NEW FOLDER</button></div></aside><div class="library-main"><div class="selection-toolbar"><button id="folderSelectAll" type="button">SELECT ALL IN FOLDER</button><button id="folderSelectNone" type="button">CLEAR SELECTION</button><label for="moveTarget">MOVE SELECTED TO</label><select aria-label="Destination folder" id="moveTarget"></select><button id="moveSelected">MOVE</button><span id="folderSelectionCount">0 selected</span><button id="folderDeleteSelected" type="button" class="delete-selected">DELETE SELECTED</button></div><div class="library-columns"><span>#</span><span>Song Name</span><span>Comments</span><span>Load</span><span>Order</span></div><div class="list" id="list"><div class="empty">Your library is empty. Import music to start.</div></div></div></div><select aria-label="View music folder" id="folderView" hidden></select></section><script>
+</style></head><body><header><div class="brand"><span class="logo"><b>DJ</b> <em>FUEL</em></span><span class="brand-divider"></span><span class="appname">WEBDECK</span><span class="version">v11a</span></div><div class="tagline">CEREMONY PLAYER &amp; COCKTAIL TWO DECK PLAYER</div><button class="settings-launch" title="Show library tools" type="button">⚙</button><div aria-live="polite" class="status" id="status">Ready.</div></header><section class="decks"><article class="deck a" id="deckA"><div class="deck-top"><h2>Deck <span class="deck-letter">A</span></h2><div class="autoplay-settings"><label class="auto-toggle">AUTO PLAY <input id="autoA" type="checkbox"/></label><label class="auto-toggle">SHUFFLE <input id="shuffleA" type="checkbox"/></label><label class="auto-toggle"><input id="repeatA" type="checkbox"/> REPEAT FOLDER</label><div class="sub" id="autoScope">Auto Play is OFF. Deck B stays manual.</div></div><div class="track"><strong id="nameA">No track loaded</strong><span class="sub" id="artistA">Choose LOAD A in the library</span></div></div><canvas aria-label="Deck A waveform, tap to seek" class="wave" id="waveA"></canvas><div class="time"><span id="timeA">0:00</span><span id="durA">0:00</span></div><input aria-label="Deck A seek" class="seek" id="seekA" max="1000" min="0" type="range" value="0"/><div class="upnext" id="upnextA">UP NEXT: —</div><div class="hint">Orange glow means audio is playing.</div><div class="controls"><button class="play" id="playA">PLAY</button><button class="fade" id="fadeA">FADE OUT</button><div class="cue"><button id="nextA">NEXT TRACK</button><button id="setA">SET</button><button id="goA1">CUE 1</button><button id="goA2">CUE 2</button></div></div></article><article class="deck b" id="deckB"><div class="deck-top"><h2>Deck <span class="deck-letter">B</span></h2><div class="autoplay-settings"><label class="auto-toggle">AUTO PLAY <input id="autoB" type="checkbox"/></label></div><div class="track"><strong id="nameB">No track loaded</strong><span class="sub" id="artistB">Choose LOAD B in the library</span></div></div><canvas aria-label="Deck B waveform, tap to seek" class="wave" id="waveB"></canvas><div class="time"><span id="timeB">0:00</span><span id="durB">0:00</span></div><input aria-label="Deck B seek" class="seek" id="seekB" max="1000" min="0" type="range" value="0"/><div class="upnext" id="upnextB">UP NEXT: —</div><div class="hint">Blue glow means audio is playing.</div><div class="controls"><button class="play" id="playB">PLAY</button><button class="fade" id="fadeB">FADE OUT</button><div class="cue"><button id="nextB">NEXT TRACK</button><button id="setB">SET</button><button id="goB1">CUE 1</button><button id="goB2">CUE 2</button></div></div></article></section><section class="library"><nav aria-label="Quick folder switching" class="quick-tabs" id="quickTabs"></nav><div class="libhead"><div class="libtools"><input id="search" placeholder="Search your music..." type="search"/><input accept="audio/*,.mp3" id="files" multiple="" type="file"/></div></div><div class="sub original-note">Import MP3s from Files. Select tracks and move them into custom folders. Comments and cues stay with each track.</div><div class="folder-dialog" hidden="" id="folderDialog"><div aria-labelledby="folderDialogLabel" class="folder-dialog-panel" role="group"><label for="folderDialogInput" id="folderDialogLabel">Folder name</label><input autocapitalize="sentences" autocomplete="off" enterkeyhint="done" id="folderDialogInput" spellcheck="false" type="text"/><div aria-live="polite" class="folder-dialog-error" id="folderDialogError"></div><div aria-label="DJ FUEL touch keyboard" hidden="" id="folderTouchKeyboard"><div class="touch-keyboard-note">iPad touch keyboard · Tap keys to enter folder name</div><div id="folderTouchKeyboardKeys"></div></div><div class="folder-dialog-actions"><button id="folderDialogCancel" type="button">CANCEL</button><button id="folderDialogSave" type="button">SAVE</button></div></div></div><div class="hint">Music is saved locally in this browser after import. Do not clear website data. Keep original MP3s as backups. On iPad, use the installed HTTPS app, not Files preview. Wi-Fi transfer requires a separately paired Windows helper; standard file import works offline.</div><div class="v11-tools"><label><input type="checkbox" id="gigLock"> GIG SAFETY LOCK</label><button id="backupMeta">BACKUP SETTINGS</button><button id="restoreMeta">RESTORE SETTINGS</button><input id="restoreMetaFile" type="file" accept="application/json,.json" hidden><button id="readiness">GIG READINESS CHECK</button><button id="audioTest">AUDIO TEST</button><button id="wifiHelp">WI-FI TRANSFER INFO</button><span id="v11Info"></span></div><div class="library-content"><aside class="folder-sidebar"><div class="sidebar-manage" id="sidebarManage"><button id="renameFolder" type="button">RENAME FOLDER</button><button id="deleteFolder" type="button">DELETE FOLDER</button></div><div class="side-title">♫  All Music</div><div class="sidebar-folders" id="folderSidebar"></div><div class="sidebar-actions"><button id="import" type="button">IMPORT MUSIC</button><button id="newFolder" type="button">＋ NEW FOLDER</button></div></aside><div class="library-main"><div class="selection-toolbar"><button id="folderSelectAll" type="button">SELECT ALL IN FOLDER</button><button id="folderSelectNone" type="button">CLEAR SELECTION</button><label for="moveTarget">MOVE SELECTED TO</label><select aria-label="Destination folder" id="moveTarget"></select><button id="moveSelected">MOVE</button><span id="folderSelectionCount">0 selected</span><button id="folderDeleteSelected" type="button" class="delete-selected">DELETE SELECTED</button></div><div class="library-columns"><span>#</span><span>Song Name <small id="folderStats" aria-live="polite"></small></span><span>Comments</span><span>Load</span><span>Order</span></div><div class="list" id="list"><div class="empty">Your library is empty. Import music to start.</div></div></div></div><select aria-label="View music folder" id="folderView" hidden></select></section><script>
 'use strict';const $=id=>document.getElementById(id),status=s=>$('status').textContent=s;const library=[];const decks={};let audioCtx;const isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);let db=null;const DBNAME='djfuel_webdeck_audio_v2';const metaKey='djfuel_webdeck_metadata_v1';let saved={};try{saved=JSON.parse(localStorage.getItem(metaKey)||'{}')}catch{}function persist(){try{localStorage.setItem(metaKey,JSON.stringify(saved))}catch{}}const FOLDER_KEY='djfuel_webdeck_folders_v1';let folders=['Ceremony'],activeFolder='ALL';let autoQueueFolder=null;let suppressAutoAdvance=false;let shuffleHistory=[];let shuffleFolder='';const SESSION_KEY='djfuel_webdeck_v11_session';let sessionCache={};try{sessionCache=JSON.parse(localStorage.getItem(SESSION_KEY)||'{}')}catch{};let restoringSession=false;let saveSession=()=>{},restoreSession=()=>{};const selectedKeys=new Set();try{const f=JSON.parse(localStorage.getItem(FOLDER_KEY)||'null');if(Array.isArray(f))folders=[...new Set(f.filter(x=>typeof x==='string'&&x.trim()&&x!=='Unfiled'))]}catch{}function saveFolders(){try{localStorage.setItem(FOLDER_KEY,JSON.stringify(folders))}catch{}}function songFolder(song){return getEntry(song).folder||'Unfiled'}function renderFolders(){const view=$('folderView'),target=$('moveTarget'),previousTarget=target.value;view.replaceChildren();target.replaceChildren();const option=(sel,value,label)=>{const o=document.createElement('option');o.value=value;o.textContent=label;sel.append(o)};option(view,'ALL','All Music ('+library.length+')');for(const f of ['Unfiled',...folders]){option(view,f,f+' ('+library.filter(s=>songFolder(s)===f).length+')');option(target,f,f)}if(activeFolder!=='ALL'&&activeFolder!=='Unfiled'&&!folders.includes(activeFolder))activeFolder='ALL';view.value=activeFolder;target.value=[...target.options].some(o=>o.value===previousTarget)?previousTarget:(folders[0]||'Unfiled');$('renameFolder').disabled=activeFolder==='ALL'||activeFolder==='Unfiled';$('deleteFolder').disabled=activeFolder==='ALL'||activeFolder==='Unfiled';renderQuickTabs()}function renderQuickTabs(){const bar=$('quickTabs');if(!bar)return;bar.replaceChildren();for(const folder of ['ALL','Unfiled',...folders]){const b=document.createElement('button');b.type='button';b.textContent=folder==='ALL'?'ALL MUSIC':folder.toUpperCase();b.className=activeFolder===folder?'active':'';b.setAttribute('aria-pressed',String(activeFolder===folder));b.onclick=()=>{activeFolder=folder;renderList()};bar.append(b)}}function visibleSongs(){const q=$('search').value.trim().toLowerCase();return library.filter(s=>(activeFolder==='ALL'||songFolder(s)===activeFolder)&&(s.title+' '+s.artist+' '+getEntry(s).comment).toLowerCase().includes(q))}function validFolderName(name){return String(name||'').trim().slice(0,60)}function updateFolder(song,name){getEntry(song).folder=name==='Unfiled'?'':name;persist()}$('folderView').onchange=e=>{activeFolder=e.target.value;renderList()};let folderDialogMode='new',folderDialogOld='';
 /* iPadOS standalone keyboard workaround: never shown on iPhone or in Safari. */
 const needsFolderTouchKeyboard=(()=>{const ua=navigator.userAgent||'';const ipad=/iPad/.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);const standalone=window.navigator.standalone===true||(window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches);return ipad&&standalone})();
@@ -211,5 +211,175 @@ const isStandalone=window.navigator.standalone===true||window.matchMedia('(displ
 // Media Session controls are best effort on iOS; audio element playback bypasses Web Audio on iOS.
 if('mediaSession' in navigator){for(const action of ['play','pause'])try{navigator.mediaSession.setActionHandler(action,async()=>{const d=!decks.A.el.paused?decks.A:!decks.B.el.paused?decks.B:decks.A.song?decks.A:decks.B;if(!d.song)return;if(action==='pause')d.el.pause();else{await ensureAudio();await d.el.play()}renderDeck(d.id)})}catch{};const oldLoad=load;load=function(id,song,fromAuto=false){oldLoad(id,song,fromAuto);try{navigator.mediaSession.metadata=new MediaMetadata({title:song.title,artist:song.artist||'DJ FUEL WEBDECK',album:'Deck '+id})}catch{}}}
 refreshUpNext();
+})();
+</script><style id="v11a-modern-dark-pro">
+
+/* DJ FUEL WEBDECK v11a — Modern Dark Pro. UI-only redesign. */
+:root{color-scheme:dark;--v-bg:#06111e;--v-panel:#0c1b2b;--v-panel2:#102339;--v-line:#204665;--v-text:#eaf5ff;--v-muted:#92b1ca;--v-blue:#159ee9;--v-orange:#ff8d29}
+html,body{background:var(--v-bg)!important;color:var(--v-text)!important}
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif!important}
+button,input,select,textarea{font-family:inherit!important}
+button{transition:background .15s,border-color .15s;color:var(--v-text)!important}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #62d7ff!important;outline-offset:2px}
+header{background:#071625!important;border-bottom:1px solid #1d4b71!important;color:var(--v-text)!important;min-height:74px}
+.logo{color:#f6fbff!important;font-size:2.25rem!important}.logo em{color:#ff8531!important}
+.brand-divider{border-color:#2c668c!important}.appname{color:#f0f8ff!important}.version,.tagline{color:#8fb6d1!important}
+.settings-launch{background:#112c44!important;border:1px solid #2b6285!important;color:#d5efff!important;border-radius:9px!important}
+header .status{color:#90c7e9!important;background:#071625cc}
+.decks{gap:12px!important;margin:14px 14px 0!important;align-items:stretch}
+.deck{background:linear-gradient(155deg,#10263b,#091726)!important;border:1px solid #245477!important;border-radius:15px!important;box-shadow:0 8px 28px #0005!important;padding:15px!important;gap:12px!important;min-width:0}
+.deck.a{--accent:#159ee9}.deck.b{--accent:#20c58b}
+.deck h2{color:#d9efff!important;font-size:1.5rem!important}
+.deck-letter{color:var(--accent)!important}
+.deck-top{height:auto!important;min-height:53px;gap:9px!important}
+.deck-top .autoplay-settings{gap:4px!important;flex-wrap:wrap}
+.deck-top .autoplay-settings .auto-toggle{background:#091b2c!important;border:1px solid #254e70!important;border-radius:7px!important;color:#c4e3f8!important;padding:8px!important;font-size:11px!important}
+.deck-top .auto-toggle input{width:39px!important;height:22px!important;background:#40586c!important;border-radius:15px!important}
+.deck-top .auto-toggle input:checked{background:var(--accent)!important}
+.deck-top .auto-toggle input:after{width:18px!important;height:18px!important;border-radius:50%!important}
+.deck-top .auto-toggle input:checked:after{left:19px!important}
+.deck-top .track{background:#071725!important;border:1px solid #254d6d!important;border-radius:8px!important;height:48px!important;padding:10px!important}
+.deck-top .track strong{color:#f1f8ff!important;font-size:.95rem!important}
+.wave{background:#06101b!important;border:1px solid #254d6d!important;border-radius:9px!important;height:126px!important}
+.time{color:#b5cfe3!important;font-size:12px!important;height:auto!important}
+.seek{accent-color:var(--accent)!important;height:18px!important}
+.upnext{color:#9bd3f5!important;background:#0b2133;border-left:3px solid var(--accent);border-radius:4px;padding:8px 10px!important;min-height:34px}
+.deck .controls{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}
+.deck .controls>.play,.deck .controls>.fade{height:59px!important;min-width:0!important;border-radius:9px!important;font-weight:800!important;font-size:1rem!important;letter-spacing:.02em}
+.deck .controls>.play{background:#159ee9!important;color:#fff!important;box-shadow:0 0 15px #138ce633!important}
+.deck.b .controls>.play{background:#16b981!important}
+.deck .controls>.fade{background:#142b40!important;border:1px solid #416783!important;color:#e7f6ff!important}
+.deck .controls .cue{grid-column:1/-1!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:8px!important;margin:0!important}
+.deck .controls .cue button{height:45px!important;min-height:45px!important;min-width:0!important;padding:5px 2px!important;font-size:12px!important;line-height:1.2!important;background:#10273b!important;border:1px solid #2a587b!important;border-radius:7px!important;white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
+.deck .controls .cue button.armed{background:#ffbd64!important;color:#101926!important}
+.quick-tabs{padding:12px 14px!important;gap:7px!important;background:#071522}
+.quick-tabs button{background:#102438!important;border:1px solid #234c6d!important;border-radius:8px!important;color:#a7cbe6!important;min-height:45px!important;font-size:12px!important;font-weight:700!important}
+.quick-tabs button:before{color:#40b6fa!important}
+.quick-tabs button.active{background:#1068a5!important;color:#fff!important;border-color:#29b2fb!important}
+.library{background:var(--v-bg)!important;padding:0 14px 20px!important}
+.libhead{padding:8px 0 12px!important;min-height:0!important}
+.libtools input[type=search],input[type=search]{background:#0e263c!important;border:1px solid #2a5675!important;border-radius:9px!important;color:#e9f7ff!important;max-width:none!important}
+.libtools input[type=search]::placeholder{color:#88aac3}
+.library-content{grid-template-columns:minmax(170px,235px) minmax(0,1fr)!important;gap:12px!important}
+.folder-sidebar,.library-main{background:#0b1c2c!important;border:1px solid #24506f!important;border-radius:12px!important;min-width:0!important;overflow:hidden!important}
+.folder-sidebar{min-height:350px!important}
+.side-title{background:#123553!important;color:#d3f0ff!important}
+.sidebar-folders,.sidebar-manage,.sidebar-actions{background:#0b1c2c!important;border-color:#244763!important}
+.sidebar-item{color:#bed8ed!important;border-color:#183b56!important}
+.sidebar-item.active{background:#124a77!important;color:#fff!important}
+.sidebar-manage button,.sidebar-actions button,.selection-toolbar button,.selection-toolbar select,.v11-tools button{background:#12314b!important;border:1px solid #315d7c!important;color:#e3f4ff!important;border-radius:7px!important}
+.sidebar-actions #import,.selection-toolbar #moveSelected{background:#096fae!important;color:#fff!important}
+.selection-toolbar #folderDeleteSelected{background:#4a202c!important;color:#ffd8d8!important;border-color:#934457!important}
+.selection-toolbar,.v11-tools{background:#10263a!important;border:1px solid #234967!important;color:#bcdcf2!important;border-radius:8px!important}
+.selection-toolbar label,.selection-toolbar #folderSelectionCount{color:#b8d5e8!important}
+.library-columns{background:#113451!important;color:#a8d8f7!important;border-color:#27597d!important}
+.library-columns span{color:#c1e8ff!important}
+#folderStats{color:#67cbff!important;font-size:11px!important;font-weight:600!important;letter-spacing:0;text-transform:none;white-space:nowrap}
+.list{background:#081929!important}
+.song{background:#0d2337!important;border:0!important;border-bottom:1px solid #20415c!important;color:#e5f5ff!important}
+.song:nth-child(even){background:#0a1e30!important}
+.song .name,.song .name strong{color:#eaf6ff!important}
+.song .sub,.song .song-number{color:#83abc7!important}
+.song textarea{background:#081928!important;color:#dbefff!important;border:1px solid #2b506b!important;border-radius:5px!important}
+.song .actions{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:4px!important;min-width:0!important}
+.song .actions button{background:#133652!important;border:1px solid #2e6185!important;color:#e8f7ff!important;border-radius:5px!important;min-width:0!important;padding:5px 1px!important;overflow:visible!important;text-overflow:clip!important;white-space:nowrap!important;font-size:11px!important}
+.song .actions button:nth-child(-n+2){background:#0e527e!important}
+.empty,.hint{color:#a6c2d6!important}
+.v11-tools{margin:8px 0!important}
+.utility-panel,.settings-panel,.modal,.dialog{color:#e6f5ff}
+@media(min-width:851px) and (max-width:1280px){
+ .deck-top{flex-wrap:wrap!important}
+ .deck-top .track{flex-basis:100%!important}
+ .deck .controls .cue button{font-size:11px!important}
+}
+@media(max-width:850px){
+ .decks{grid-template-columns:1fr!important}
+ .deck .controls{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .deck .controls .cue{grid-column:1/-1!important}
+ .library-content{grid-template-columns:1fr!important}
+ .folder-sidebar{min-height:0!important}
+ .sidebar-folders{display:flex!important;flex-direction:row!important;overflow-x:auto!important}
+ .libhead{padding:8px 0!important}
+}
+@media(max-width:650px){
+ header{padding:10px 12px!important}
+ .logo{font-size:1.65rem!important}.appname{font-size:1.45rem!important}
+ .decks{margin:8px!important;gap:10px!important}
+ .deck{padding:12px!important}
+ .deck-top{flex-wrap:wrap!important}
+ .deck-top .track{flex-basis:100%!important}
+ .wave{height:104px!important}
+ .deck .controls>.play,.deck .controls>.fade{height:56px!important}
+ .deck .controls .cue button{min-height:48px!important}
+ .library{padding:0 8px 14px!important}
+ .song .actions button{font-size:10px!important}
+ .library-columns,.song{grid-template-columns:32px minmax(0,1fr) minmax(0,.7fr) 152px!important}
+ #folderStats{font-size:10px!important}
+}
+</style><script id="v11a-folder-stats">
+
+(function(){
+'use strict';
+const stats=document.getElementById('folderStats');
+if(!stats)return;
+const durationCache=new Map();
+const probing=new Set();
+function folderSongs(){
+ return library.filter(s=>activeFolder==='ALL'||songFolder(s)===activeFolder);
+}
+function formatMinutes(sec){return Math.round(sec/60).toLocaleString()+' mins'}
+function updateStats(){
+ const songs=folderSongs();
+ let known=0,total=0;
+ for(const s of songs){
+   let seconds=durationCache.get(s.key);
+   for(const id of ['A','B']){
+     const d=decks[id];
+     if(d&&d.song?.key===s.key&&Number.isFinite(d.el.duration)&&d.el.duration>0){
+       seconds=d.el.duration;durationCache.set(s.key,seconds);
+     }
+   }
+   if(Number.isFinite(seconds)&&seconds>=0){known++;total+=seconds}
+ }
+ stats.textContent='('+songs.length+' tracks · '+(known===songs.length?formatMinutes(total):formatMinutes(total)+' measured, calculating…')+')';
+}
+let scheduled=false;
+function scheduleStats(){
+ if(scheduled)return;
+ scheduled=true;
+ setTimeout(()=>{scheduled=false;updateStats()},50);
+}
+const priorRender=renderList;
+renderList=function(){priorRender();scheduleStats();queueProbe()};
+for(const id of ['A','B'])decks[id].el.addEventListener('loadedmetadata',scheduleStats);
+let pending=[],running=0;
+function queueProbe(){
+ const songs=folderSongs();
+ pending=songs.filter(s=>s.url&&!durationCache.has(s.key)&&!probing.has(s.key));
+ pump();
+}
+function pump(){
+ while(running<2&&pending.length){
+  const s=pending.shift();
+  if(!s||probing.has(s.key)||durationCache.has(s.key))continue;
+  probing.add(s.key);running++;
+  const audio=document.createElement('audio');
+  audio.preload='metadata';
+  let finished=false;
+  const finish=(seconds)=>{
+   if(finished)return;finished=true;
+   if(Number.isFinite(seconds)&&seconds>0)durationCache.set(s.key,seconds);
+   else durationCache.set(s.key,NaN);
+   audio.removeAttribute('src');audio.load();
+   probing.delete(s.key);running--;scheduleStats();pump();
+  };
+  audio.addEventListener('loadedmetadata',()=>finish(audio.duration),{once:true});
+  audio.addEventListener('error',()=>finish(NaN),{once:true});
+  audio.src=s.url;
+  setTimeout(()=>finish(NaN),9000);
+ }
+}
+setInterval(scheduleStats,5000);
+scheduleStats();
 })();
 </script></body></html>
